@@ -1,6 +1,6 @@
-Heroku link: https://polar-garden-99583.herokuapp.com/
+Heroku link: https://ttt-deep.herokuapp.com/
 
-###Installation
+# Installation
 
 Clone or fork this repository ```$ git clone https://github.com/DeepGunner/Word-Frequency-Counter```
 
