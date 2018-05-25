@@ -1,0 +1,21 @@
+{
+  "name": "tttch",
+  "version": "0.1.0",
+  "description": "terribly tiny tales",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "ttt",
+    "terribly tiny tales",
+    "application challenge",
+    "internship"
+  ],
+  "author": "deepgunner",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3",
+    "request": "^2.85.0"
+  }
+}
