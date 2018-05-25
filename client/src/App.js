@@ -29,25 +29,27 @@ class App extends Component {
         return(
             <div className="App">
                 <h1>ttt word frequency counter</h1>
-                <input type="text" value={this.state.value} placeholder="Enter a number" onChange={this.handleChange} />
+                <input type="text" placeholder="Enter a number" value={this.state.value} onChange={this.handleChange} />
                 <br/>
                 <h4>{this.state.number} most frequently occuring word/s.</h4>
                 <div className="container">
                     <table align="center">
                         <tr>
-                            <th className="word">Word</th>
+                            
+                            <th className="words">Word</th>
                             <th className="count">Count</th>
                         </tr>
                         {this.state.data.slice(0, this.state.number).map((item, index) =>
                             <tr>
-                                <td className="word">{item.word}</td>
+                                
+                                <td className="words">{item.word}</td>
                                 <td className="count">{item.count}</td>
                             </tr>
                         )}
                     </table>
                 </div>
                 <br/>
-                <p><a href="https://github.com/DeepGunner/Word-Frequency-Counter" target="_blank" >Source-Code</a></p>
+                
             </div>
         )
     }
