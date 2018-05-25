@@ -3,8 +3,13 @@ body {
     max-width: 80%;
     font-family: 'Helvetica Neue, Helvetica, Arial, sans-serif';
     color: white;
-    background-color: black;
-   
+    background: linear-gradient(45deg, #000000, #29323c); /* Basic */
+  background: -o-linear-gradient(45deg, #000000, #29323c); /* Opera */
+  background: -ms-linear-gradient(45deg, #000000, #29323c); /* Internet Explorer */
+  background: -moz-linear-gradient(45deg, #000000, #29323c); /* Mozilla Firefox */
+  background: -webkit-linear-gradient(45deg, #000000, #29323c); /* Webkit Based Browsers */
+  height: 100%;
+
   }
   
   h1, p, h4 {
@@ -16,11 +21,6 @@ body {
     text-decoration: none;
   }
   
-  img {
-    margin: 10% auto;
-    display: block;
-  }
-  
   input {
     border-radius: 200px;
     display: block;
@@ -30,7 +30,7 @@ body {
     padding: 2%;
     font-family: inherit;
     color: white;
-    background-color: black;
+    background-color: transparent;
     border: white solid 0.5px;
     outline: none;
   }
@@ -44,6 +44,7 @@ body {
     width: 45%;
     border: none;
     font-family: inherit;
+    background-color: transparent;
   }
   
   th, td {
@@ -57,6 +58,7 @@ body {
     height: 450px;
     overflow-x: hidden;
     overflow-y: auto;
+    background-color: transparent;
 }
   
   .words, .count {
@@ -64,5 +66,6 @@ body {
       padding: 2%;
       text-align: center;
       vertical-align: top;
+      background-color: transparent;
   }
   
