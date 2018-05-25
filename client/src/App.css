@@ -1,6 +1,6 @@
 body {
     margin: 2% auto;
-    max-width: 80%;
+    max-width: 100%;
     font-family: 'Helvetica Neue, Helvetica, Arial, sans-serif';
     color: white;
     background: linear-gradient(45deg, #000000, #29323c); /* Basic */
@@ -8,7 +8,7 @@ body {
   background: -ms-linear-gradient(45deg, #000000, #29323c); /* Internet Explorer */
   background: -moz-linear-gradient(45deg, #000000, #29323c); /* Mozilla Firefox */
   background: -webkit-linear-gradient(45deg, #000000, #29323c); /* Webkit Based Browsers */
-  height: 100%;
+  height: -webkit-fill-available;
 
   }
   
@@ -33,6 +33,7 @@ body {
     background-color: transparent;
     border: white solid 0.5px;
     outline: none;
+    font-size: 12px;
   }
   
   input:focus{
@@ -54,11 +55,13 @@ body {
   
   .container {
     margin: auto;
-    width: 40%;
-    height: 450px;
+    width: 30%;
+    height: 65vh;
     overflow-x: hidden;
     overflow-y: auto;
     background-color: transparent;
+    font-size: 24px;
+    border: 3px white solid
 }
   
   .words, .count {
