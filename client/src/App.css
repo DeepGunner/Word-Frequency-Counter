@@ -1,0 +1,68 @@
+body {
+    margin: 20% auto;
+    max-width: 80%;
+    font-family: 'Helvetica Neue, Helvetica, Arial, sans-serif';
+    color: white;
+    background-color: black;
+   
+  }
+  
+  h1, p, h4 {
+    text-align: center;
+    font-family: inherit;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  img {
+    margin: 10% auto;
+    display: block;
+  }
+  
+  input {
+    display: block;
+    margin : 0 auto;
+    width: 20%;
+    text-align: center;
+    padding: 5%;
+    font-family: inherit;
+    color: white;
+    background-color: black;
+    border: none;
+    outline: none;
+  }
+  
+  input:focus{
+    outline: none;
+  }
+  
+  table {
+    text-align: center;
+    width: 45%;
+    border: none;
+    font-family: inherit;
+  }
+  
+  th, td {
+    
+    text-align: center;
+  }
+  
+  .container {
+    margin: auto;
+    width: 60%;
+    height: 450px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    
+  }
+  
+  .word, .count {
+    width: 15%;
+      padding: 2%;
+      text-align: center;
+      vertical-align: top;
+  }
+  
