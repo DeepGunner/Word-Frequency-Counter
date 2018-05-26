@@ -6,7 +6,7 @@ Heroku link: https://ttt-deep.herokuapp.com/
 
 ```$ npm install```
 
-```$ node server.js```
+```$ npm start```
 
 # Resources used:
 
