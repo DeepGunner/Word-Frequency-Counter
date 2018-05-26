@@ -45,10 +45,10 @@ app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'client', 'build', 'index.html'));
 });
 
-app.get('/data', (req, res) => {
-    wordCounter('http://terriblytinytales.com/test.txt', (data) => {
-        res.send(data)
+    app.get('/data', (req, res) => {
+        wordCounter('http://terriblytinytales.com/test.txt', (data) => {
+            res.send(data)
+        })
     })
-})
 
 app.listen(PORT, () => console.log('Server running on Port ' + PORT))
