@@ -1,9 +1,9 @@
 body {
-    margin: 2% auto;
-    max-width: 100%;
-    font-family: 'Helvetica Neue, Helvetica, Arial, sans-serif';
-    color: white;
-    background: linear-gradient(45deg, #000000, #29323c); /* Basic */
+  margin: 2% auto;
+  max-width: 100%;
+  font-family: 'Helvetica Neue, Helvetica, Arial, sans-serif';
+  color: white;
+  background: linear-gradient(45deg, #000000, #29323c); /* Basic */
   background: -o-linear-gradient(45deg, #000000, #29323c); /* Opera */
   background: -ms-linear-gradient(45deg, #000000, #29323c); /* Internet Explorer */
   background: -moz-linear-gradient(45deg, #000000, #29323c); /* Mozilla Firefox */
@@ -55,7 +55,7 @@ body {
   
   .container {
     margin: auto;
-    width: 30%;
+    width: 45%;
     height: 65vh;
     overflow-x: hidden;
     overflow-y: auto;
@@ -66,9 +66,9 @@ body {
   
   .words, .count {
     width: 15%;
-      padding: 2%;
-      text-align: center;
-      vertical-align: top;
-      background-color: transparent;
+    padding: 2%;
+    text-align: center;
+    vertical-align: top;
+    background-color: transparent;
   }
   
