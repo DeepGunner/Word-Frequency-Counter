@@ -35,6 +35,7 @@ function wordCounter(url, callback) {
         wordCount.sort((a,b) => b.count - a.count)
 
         return callback(wordCount)
+        
     })
 }
 
