@@ -55,7 +55,7 @@ body {
   
   .container {
     margin: auto;
-    width: 45%;
+    width: 45vw;
     height: 65vh;
     overflow-x: hidden;
     overflow-y: auto;
